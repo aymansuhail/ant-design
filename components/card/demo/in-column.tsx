@@ -4,7 +4,7 @@ import { Card, Col, Row } from 'antd';
 const App: React.FC = () => (
   <Row gutter={16}>
     <Col span={8}>
-      <Card title="Card title" bordered={false}>
+      <Card title="Card title1" bordered={true}>
         Card content
       </Card>
     </Col>
